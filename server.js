@@ -40,7 +40,7 @@ app.get('/greet/:id', function (req,res){
 
 
 
-app.listen(1080, function () {
+app.listen(prosses.evn.PORT || 8080, function () {
 
   console.log('Example app listening on port 1080!')
 
